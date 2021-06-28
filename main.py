@@ -18,8 +18,8 @@ def send_notification():
 
 # function for sending email
 def send_mail(receiver):
-    sender_mail = 'amazonpricetracker760@gmail.com'
-    rec_mail = receiver
+    sender_mail = 'sender mail id'
+    rec_mail = 'receiver mail id'
     password = 'your mail password'
     server = smtplib.SMTP('smtp.gmail.com', 587)
     server.starttls()
