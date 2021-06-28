@@ -20,7 +20,7 @@ def send_notification():
 def send_mail(receiver):
     sender_mail = 'amazonpricetracker760@gmail.com'
     rec_mail = receiver
-    password = 'Praveen123@'
+    password = 'your mail password'
     server = smtplib.SMTP('smtp.gmail.com', 587)
     server.starttls()
     server.login(sender_mail, password)
